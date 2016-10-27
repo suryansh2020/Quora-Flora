@@ -22,8 +22,8 @@ def login(profile):
     url = "https://www.quora.com/profile/" + nameurl
     status_OK = 200
     payload = {
-    'email' : 'sankhla.dileep96@gmail.com',
-    'password' : 'Hakimpet@96'
+    'email' : 'example@gmail.com',
+    'password' : 'example'
     }
 
     with session() as c:
